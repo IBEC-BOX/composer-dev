@@ -21,7 +21,7 @@ brew install jq curl
 To install `composer-dev`, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/ast21/composer-dev/main/install.sh | sudo bash
+curl -s -o- https://raw.githubusercontent.com/ast21/composer-dev/main/install.sh | sudo bash
 ```
 
 ## Usage

@@ -7,7 +7,7 @@ This script will help you in developing composer packages
 - curl
 - jq
 
-First, install the packages **jq** and **curl**
+For install the packages **jq** and **curl**
 ```bash
 # Linux
 sudo apt install jq curl
@@ -18,7 +18,7 @@ brew install jq curl
 
 ## Installation
 
-To install `composer-dev`, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
+To install `composer-dev`, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL command:
 
 ```bash
 curl -s -o- https://raw.githubusercontent.com/ast21/composer-dev/main/install.sh | sudo bash

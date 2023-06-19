@@ -1,4 +1,4 @@
-# composer-dev command for Linux/MacOS
+# Command composer-dev for Linux/MacOS
 
 This script will help you in developing composer packages
 
@@ -45,6 +45,12 @@ I recommend adding **composer.dev.json** and **composer.dev.lock** files to your
 ```bash
 echo composer.dev.json >> .gitignore
 echo composer.dev.lock >> .gitignore
+```
+
+## Command composer-local
+Also, you may use command `composer-local`, and local packages should be installed in the folder:
+```
+./composer-packages/{username}/{package-name}
 ```
 
 ## License

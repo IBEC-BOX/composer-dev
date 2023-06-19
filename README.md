@@ -48,7 +48,15 @@ echo composer.dev.lock >> .gitignore
 ```
 
 ## Command composer-local
-Also, you may use command `composer-local`, and local packages should be installed in the folder:
+Also, you may use command `composer-local`,
+
+```bash
+composer-local install
+composer-local update
+composer-local dump-autoload
+```
+
+And local packages should be installed in the project folder:
 ```
 ./composer-packages/{username}/{package-name}
 ```

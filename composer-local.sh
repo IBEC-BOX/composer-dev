@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PACKAGES_PATH='$PWD/composer-packages'
+PACKAGES_PATH='composer-packages'
 REPOSITORIES="{
     \"type\": \"path\",
     \"url\": \"$PACKAGES_PATH/*/*\",

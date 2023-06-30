@@ -61,6 +61,15 @@ And local packages should be installed in the project folder:
 ./composer-packages/{username}/{package-name}
 ```
 
+## For only one local project 
+If you want to use this script for only one local project, you can download the script to your project using the command:
+```bash
+curl -s -o composer-local https://raw.githubusercontent.com/ast21/composer-dev/main/composer-local.sh
+chmod +x composer-local
+```
+
+Then use the command in the project `composer-local {option}`
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

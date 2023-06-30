@@ -68,7 +68,7 @@ curl -s -o composer-local https://raw.githubusercontent.com/ast21/composer-dev/m
 chmod +x composer-local
 ```
 
-Then use the command in the project `composer-local {option}`
+Then use the command in the project `./composer-local {option}`
 
 ## License
 

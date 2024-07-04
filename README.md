@@ -1,9 +1,13 @@
-# Command composer-dev for Linux/MacOS
+# Commands composer-dev/composer-local for Linux/MacOS
 
 This script will help you in developing composer packages
 
 ## Requirements
+OS:
+- Linux
+- MacOS
 
+libs:
 - curl
 - jq
 

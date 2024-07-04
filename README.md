@@ -22,10 +22,10 @@ brew install jq curl
 
 ## Installation
 
-To install `composer-dev`, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL command:
+To install `composer-dev` and `composer-local`, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL command:
 
 ```bash
-curl -s -o- https://raw.githubusercontent.com/ast21/composer-dev/main/install.sh | sudo bash
+curl -s -o- https://raw.githubusercontent.com/ibec-box/composer-dev/main/install.sh | sudo bash
 ```
 
 ## Usage
@@ -68,7 +68,7 @@ And local packages should be installed in the project folder:
 ## For only one local project 
 If you want to use this script for only one local project, you can download the script to your project using the command:
 ```bash
-curl -s -o composer-local https://raw.githubusercontent.com/ast21/composer-dev/main/composer-local.sh
+curl -s -o composer-local https://raw.githubusercontent.com/ibec-box/composer-dev/main/composer-local.sh
 chmod +x composer-local
 ```
 
